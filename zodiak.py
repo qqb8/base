@@ -1,26 +1,26 @@
 month = int(input('Input month: '))
 day = int(input('Input day: '))
 if (month == 12 and (22 <= day <= 31)) or (month == 1 and (1 <= day <= 19)):
-  print("Êîçåğîã")
+  print("ĞšĞ¾Ğ·ĞµÑ€Ğ¾Ğ³")
 if (month == 1 and (20 <= day <= 31)) or (month == 2 and (1 <= day <= 19)):
-  print("Âîäîëåé")
+  print("Ğ’Ğ¾Ğ´Ğ¾Ğ»ĞµĞ¹")
 if (month == 2 and (20 <= day <= 31)) or (month == 3 and (1 <= day <= 21)):
-  print("Ğûáû")
+  print("Ğ Ñ‹Ğ±Ñ‹")
 if (month == 3 and (22 <= day <= 31)) or (month == 4 and (1 <= day <= 21)):
-  print("Îâåí")
+  print("ĞĞ²ĞµĞ½")
 if (month == 4 and (22 <= day <= 31)) or (month == 5 and (1 <= day <= 21)):
-  print("Òåëåö")
+  print("Ğ¢ĞµĞ»ĞµÑ†")
 if (month == 5 and (22 <= day <= 31)) or (month == 6 and (1 <= day <= 21)):
-  print("Áëèçíåöû")
+  print("Ğ‘Ğ»Ğ¸Ğ·Ğ½ĞµÑ†Ñ‹")
 if (month == 6 and (22 <= day <= 31)) or (month == 7 and (1 <= day <= 21)):
-  print("Ğàê")
+  print("Ğ Ğ°Ğº")
 if (month == 7 and (22 <= day <= 31)) or (month == 8 and (1 <= day <= 21)):
-  print("Ëåâ")
+  print("Ğ›ĞµĞ²")
 if (month == 8 and (22 <= day <= 31)) or (month == 9 and (1 <= day <= 21)):
-  print("Äåâà")
+  print("Ğ”ĞµĞ²Ğ°")
 if (month == 9 and (22 <= day <= 31)) or (month == 10 and (1 <= day <= 21)):
-  print("Âåñû")
+  print("Ğ’ĞµÑÑ‹")
 if (month == 10 and (22 <= day <= 31)) or (month == 11 and (1 <= day <= 20)):
-  print("Ñêîğïèîí")
+  print("Ğ¡ĞºĞ¾Ñ€Ğ¿Ğ¸Ğ¾Ğ½")
 if (month == 11 and (21 <= day <= 31)) or (month == 12 and (1 <= day <= 21)):
-  print("Ñòğåëåö")
+  print("Ğ¡Ñ‚Ñ€ĞµĞ»ĞµÑ†")

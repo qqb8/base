@@ -9,19 +9,19 @@ if len(boys) == len(girls):
   together = zip(boys, girls)
   together = list(together)
   names1, names2, names3, names4, names5 = together
-  print('Идеальные пары:', '\n')
+  print('РРґРµР°Р»СЊРЅС‹Рµ РїР°СЂС‹:', '\n')
   # print(together)
   for pair in together:
     print(pair)
     print(f'{pair[0]} & {pair[1]}')
 else:
-  print("Кто-то может остаться без пары")
+  print("РљС‚Рѕ-С‚Рѕ РјРѕР¶РµС‚ РѕСЃС‚Р°С‚СЊСЃСЏ Р±РµР· РїР°СЂС‹")
 
 # boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard']
 # girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
 # if len(boys) != len(girls):
-#     print('Кому-то не достанется пары!')
+#     print('РљРѕРјСѓ-С‚Рѕ РЅРµ РґРѕСЃС‚Р°РЅРµС‚СЃСЏ РїР°СЂС‹!')
 # pairs = zip(sorted(boys), sorted(girls))
-# print('Идеальные пары: ')
+# print('РРґРµР°Р»СЊРЅС‹Рµ РїР°СЂС‹: ')
 # for boy, girl in pairs:
-#     print(f'{boy} и {girl}')
+#     print(f'{boy} Рё {girl}')
