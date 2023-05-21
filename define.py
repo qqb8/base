@@ -41,12 +41,10 @@ def myfc():
         if com == 'q': break
         if com == 'p': com_people()
         if com == 's': com_shelf()
-        if com == 'l':
-            com_list()
+        if com == 'l': com_list()
         else:
             print('Неверная команда')
     return None
-
 
 def com_people():
     num1 = input('Введите номер документа: ')
